@@ -3,7 +3,7 @@
 require_once 'Speedometer.php';
 
 $miles = 7;
-$km = 4;
+$km = 10;
 
 echo $miles . " miles are equals to " . round(Speedometer::convertKmToMiles($miles), 2) . ' km <br>';
 echo $km . " km are equals to " . round(Speedometer::convertMilesToKm($km), 2) . ' miles <br>';
